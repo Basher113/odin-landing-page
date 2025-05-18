@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px;
+    margin-bottom: 38px;
 }
 
 .logo {
@@ -72,3 +73,37 @@
     padding: 80px;
     text-align: center;
 }
+
+/* Information section  */
+.information-section {
+    padding: 36px 250px 70px 250px;
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.information {
+    width: 150px;
+    text-align: center;
+    color: #2e2e2e;
+}
+
+.information-box {
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+    padding: 70px;
+    margin-bottom: 6px;x
+}
+
