@@ -10,7 +10,7 @@
 .header-and-hero {
     background-color: #1F2937;
     color: white;
-    padding: 0 200px 50px 200px;
+    padding: 0 300px 50px 300px;
 }
 
 .header {
@@ -105,4 +105,70 @@
     border-radius: 5px;
     padding: 70px;
     margin-bottom: 6px;
+}
+
+/* Information Section End */
+
+/* Quote Section Start */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    padding: 0 570px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+}
+
+.quote-author {
+    margin-left: auto;
+}
+
+/* Quote Section End */
+
+
+/* Call to Action Start */
+
+.call-to-action-section {
+    height: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-content {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    width: 600px;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.call-to-action-left .main-text {
+    font-weight: 700;
+}
+
+.call-to-action-left .subtext {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+.call-to-action-button {
+    color: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 3px 14px;
+    cursor: pointer;
 }
